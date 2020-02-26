@@ -1,18 +1,26 @@
 string = 'the chubby rabid fox jumped over the playfull dog'
 string_length = (len(string))
-print(string_length)string_1 = "The chubby "
+print(string_length)
+
+string_1 = "The chubby "
 string_2 = "rabid fox "
 string_3 = "jumped over the "
 string_4 = "playfull dog"
 
 string_5 = (string_1 + string_2 + string_3 + string_4)
 
-print(string_5)string_1 = "The chubby "
+print(string_5)
+string_1 = "The chubby "
 string_2 = "rabid fox "
 string_3 = "jumped over the "
-string_4 = "playfull dog"string_5 = f"{string_1}{string_2}{string_3}{string_4}"
-print(string_5)name = 'Alex'
-print(name[-1] + name[1: -1] + name[0])str = "the dog"
+string_4 = "playfull dog"
+string_5 = f"{string_1}{string_2}{string_3}{string_4}"
+print(string_5)
+
+name = 'Alex'
+print(name[-1] + name[1: -1] + name[0])
+
+str = "the dog"
 
 
 def new_str():
@@ -20,11 +28,17 @@ def new_str():
     return f"{str[-1:]}, {str[1: -1]}, {str[:1]}"
 
 
-print(new_str)numbers = [1, 2, 3]
+print(new_str)
+
+numbers = [1, 2, 3]
 total = sum(numbers)
-print(total)string = "racecar"
+print(total)
+string = "racecar"
 string_replace = string.replace[0, ]
-print(string_replace)first_list = ["dallin", "kortney", "lincoln", "lily"]
+print(string_replace)
+
+
+first_list = ["dallin", "kortney", "lincoln", "lily"]
 
 
 def return_longest(li):
