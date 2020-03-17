@@ -54,3 +54,25 @@ menu.insert(4, 'chocolate chip cookies')
 menu.insert(2, 'snow cones')
 menu.insert(5, 'candy corn')
 print(menu)
+
+twoRivers = ['Rand', 'Perrin', 'Mat', 'Egwene', 'Nynaeve']
+
+twoRivers.insert(2, 'Faile')
+
+
+print("OG list")
+print(twoRivers)
+
+print("Temp sorted list")
+print(sorted(twoRivers))
+
+print("back to normal")
+print(twoRivers)
+
+print("reverse order isn't in alphabetical order, and is perm unless it's reversed again.")
+twoRivers.reverse()
+print(twoRivers)
+
+print("back to original order.")
+twoRivers.reverse()
+print(twoRivers)
