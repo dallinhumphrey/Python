@@ -76,3 +76,24 @@ print(twoRivers)
 print("back to original order.")
 twoRivers.reverse()
 print(twoRivers)
+
+twoRivers = ['Rand', 'Perrin', 'Faile', 'Mat', 'Egwene', 'Nynaeve']
+
+
+visit = ['new zealand', 'fuji', 'costa rica', 'bali', 'lake powell']
+
+print(visit)
+print(sorted(visit))
+print(visit)
+
+visit.reverse()
+print(visit)
+
+visit.reverse()
+print(visit)
+
+visit.sort(reverse=True)
+print(visit)
+
+two_rivers_dinner = len(twoRivers)
+print(f""" There will be {two_rivers_dinner} guests at tonights dinner""")
